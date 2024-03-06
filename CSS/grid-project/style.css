@@ -121,3 +121,72 @@ html, body{
     font-size: 40px;
     font-weight: 100;
 }
+
+
+@media (max-width: 600px){
+    .main{
+        grid-template-columns: 50% 50%;
+        grid-template-rows:  60px 25% 6%;
+    }
+    
+    .left-topLeft{
+        padding: 20px;
+    }   
+    .square{
+        height: 25px;
+        width: 25px;
+    }
+    .left-topRight{
+        padding: 20px ;
+    }
+    .left-topRight h5{
+       display: none;
+    }
+    
+     /* --------------------------------------Left center---------------------------------------------------------------- */
+    .left-center{
+        padding: 0px 120px;
+    }
+    
+    .left-center h1{
+        font-size: 8vw;
+    }
+    .left-center h1:nth-child(2n){
+        text-align: right;
+    }
+    
+      
+     /* --------------------------------------Left bottom---------------------------------------------------------------- */
+    
+    .left-bottom{
+       width: 100%;
+       grid-row: ;
+       padding: 0px 20px;
+    }
+    
+   
+     /* --------------------------------------right---------------------------------------------------------------- */
+    
+    .right{
+        grid-column: 1 / 4;
+         grid-row: 4;
+         padding: 20px;
+    }
+    
+    .right video {
+        height:58vh;
+    }
+    
+    
+    /*  arrow */
+    .arrow{
+       top: 40%;
+       left: 85%;
+       padding: 20px;
+    }
+    
+    .arrow i{
+        font-size: 20px;
+        rotate: 90deg;
+    }
+}
