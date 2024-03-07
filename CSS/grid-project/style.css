@@ -126,7 +126,7 @@ html, body{
 @media (max-width: 600px){
     .main{
         grid-template-columns: 50% 50%;
-        grid-template-rows:  60px 25% 6%;
+        grid-template-rows:  60px 20% 10%;
     }
     
     .left-topLeft{
@@ -145,7 +145,7 @@ html, body{
     
      /* --------------------------------------Left center---------------------------------------------------------------- */
     .left-center{
-        padding: 0px 120px;
+        padding: 0px 90px;
     }
     
     .left-center h1{
@@ -181,7 +181,7 @@ html, body{
     /*  arrow */
     .arrow{
        top: 40%;
-       left: 85%;
+       left: 50%;
        padding: 20px;
     }
     
