@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 html, body{
@@ -14,10 +15,11 @@ html, body{
     width: 100%;
     background-color: antiquewhite;
 }
-
+/* ------------------------------nav */
 nav{
    width: 100%;
-   height: 80px;
+   /* height: 80px; */
+   height: 10%;
    /* background-color: aqua;  */
    display: flex;
    align-items: center;
@@ -28,7 +30,6 @@ nav{
 
 nav h4{
     font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 100;
 }
 nav i{
@@ -38,3 +39,89 @@ nav i{
     padding: 15px;
     border-radius: 50%;
 }
+
+/* -------------------------------------center */
+.center{
+    height: 35%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 40px 80px;
+}
+
+.center h1{
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 90px;
+}
+
+.bckImg {
+    height: 55%;
+    background-color: aquamarine;
+    background-image: url(https://images.unsplash.com/photo-1571875257727-256c39da42af?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.center2{
+    /* height: 200px; */
+    /* background-color: rgb(160, 255, 255); */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+    padding-bottom: 0px;
+}
+
+.center2 p{
+    font-size: 22px;
+    font-weight: 500;
+    line-height:  35px;
+    /* color: white; */
+}
+
+.center-right{
+    /* background-color: burlywood; */
+    width: 20%;
+}
+
+
+.elem{
+    /* background-color: rgb(165, 165, 255); */
+    padding: 20px 0;
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem a{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.elem i{
+    font-size: 25px;
+    font-weight: 500;
+    display: none;
+}
+
+.elem:hover i{
+   display: block;
+}
+.elem:hover a{
+   text-decoration: underline;
+}
+
+
+/* -----------------------------------------bottom image */
+
+.bottom{
+    /* height: 500px; */
+    width: 100%;
+ /* background-color: blueviolet; */
+}  
