@@ -190,3 +190,65 @@ html, body{
         rotate: 90deg;
     }
 }
+
+
+
+
+
+@media (max-width: 400px){
+    .main{
+        grid-template-columns: 50% 50%;
+        grid-template-rows:  40px 20% 10%;
+    }
+    
+    .left-topLeft{
+        padding: 12px;
+    }   
+   
+    .left-topRight{
+        padding: 12px ;
+    }
+     /* --------------------------------------Left center---------------------------------------------------------------- */
+    .left-center h1{
+        font-size: 7vw;
+    }
+    .left-center h1:nth-child(2n){
+        text-align: center;
+    }
+    
+      
+     /* --------------------------------------Left bottom---------------------------------------------------------------- */
+    
+    .left-bottom{
+       width: 100%;
+       grid-row: 3 / 4 ;
+       padding: 0px 20px;
+    }
+    
+   
+     /* --------------------------------------right---------------------------------------------------------------- */
+    
+    .right{
+        grid-column: 1 / 4;
+         grid-row: 4;
+         padding: 20px;
+    }
+    
+    .right video {
+        margin-top: 45px;
+        height: 58vh;
+    }
+    
+    
+    /*  arrow */
+    .arrow{
+       top: 46%;
+       left: 85%;
+       padding: 15px;
+    }
+    
+    .arrow i{
+        font-size: 15px;
+        rotate: 90deg;
+    }
+}
