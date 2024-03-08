@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind</title>
+</head>
+
+<body>
+    <div class="w-full h-screen">
+        <div class="container relative mx-auto h-screen">
+            <!-- navbar  -->
+            <nav class="px-4 py-3 flex items-center justify-between font-bold text-2xl">
+                <h3 class="font-['Open_Sans']">design.tailwind</h3>
+                <div class="links hidden  text-sm sm:flex gap-10 font-bold opacity-70">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Shop</a>
+                </div>
+                <i class="ri-menu-line sm:hidden"></i>
+            </nav>
+            <!-- hero section  -->
+            <div
+                class="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] w-full flex flex-col items-center">
+                <div class="image w-24 h-24 md:w-32 md:h-32 rounded-full">
+                    <img class="w-full h-full rounded-full object-cover"
+                        src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="image">
+                </div>
+                <h3 class="font-light md:font-normal text-2xl md:text-3xl mt-4 tracking-tight">Hi! I'm Leon 👋</h3>
+                <h1
+                    class="w-3/4 md:w-4/12  text-center leading-none mt-10 text-4xl md:text-6xl font-semibold tracking-tighter">
+                    Building digital products, brands, and experiences.
+                </h1>
+                <p class="text-md md:text-xl text-center w-3/4 md:w-4/12 mt-10 md:opacity-70 font-semibold">
+                    a <span class="font-bold">Product Designer</span> and <span class="font-bold">Visual
+                        Developer</span> in SF. I specialize in UI/UX
+                    Design, Responsive Web Design, and Visual Development.
+                </p>
+                <button
+                    class="px-4 md:px-6 py-2 md:py-4 text-white text-md md:text-xl bg-gray-900 mt-10 md:mt-16 rounded-full tracking-tight font-semibold">
+                    Connect with me
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
