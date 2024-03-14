@@ -177,9 +177,74 @@ html, body{
     left: 10%;
 }
 
-
+/**--------------------------------- page 2 styling  */
 .page2{
     height: 100%;
     width: 100%;
-    background-color: green;
+    /* background-color: green; */
+    position: relative;
+    padding: 70px;
 }
+
+.page2 h1{
+    font-size: 80px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 80px;
+    margin-bottom: 50px;
+}
+
+
+.box{
+ height: 320px;
+ width: 380px;
+ background-color: rgb(83, 68, 68);
+ border-radius: 10px;
+ overflow: hidden;
+ display: inline-block;
+ margin: 12px;
+ margin-left: 40px;
+ position: relative;
+}
+
+.box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box-bottom{
+    height: 40%;
+    width: 100%;
+    background: linear-gradient(transparent, black);
+    position: absolute;
+    bottom: -40%;
+    transition: all ease 0.5s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.box:hover{
+    box-shadow: 0px 2px 30px rgb(27, 26, 26);
+}
+.box:hover .box-bottom{
+    bottom: 0;
+   }
+
+.box-bottom i{
+    background-color: white;
+    padding: 9px;
+    color: black;
+    font-size: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.box-bottom i:hover{
+    background-color: black;
+    color: white;
+}
+
