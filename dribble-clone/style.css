@@ -2,27 +2,132 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* font-family: 'work sans'; */
 }
 
 html, body{
     height: 100%;
     width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
 }
 
 .page1{
     height: 100%;
     width: 100%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .page1 .nav{
-    height: 120px;
+    height: 100px;
     width: 100%;
-    background-color: bisque;
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.nav1{
+    width: 28%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.nav1 h4{
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav1 h4:hover{
+    text-decoration: underline;
+}
+
+.nav img{
+    height: 70px;
+}
+
+
+.nav2{
+    width: 30%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.nav2 button{
+   padding: 12px 16px;
+   border-radius: 40px;
+   font-size: 14px;
+   font-weight: 500;
+   border: none;
+   background-color: #000;
+   color: white;
+   display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.nav2 button:nth-child(1){
+    background-color: transparent;
+    color: #000;
+}
+.nav2 button:nth-child(1)::after{
+    content: "";
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    margin-left: 10px;
 }
 
 .content{
-    height: calc(100% - 120px);
+    height: calc(100% - 100px);
     width: 100%;
-    background-color: blueviolet;
+    padding-top: 90px;
+    /* background-color: blueviolet; */
+}
+
+.content h3{
+    background-color: rgb(243, 167, 192);
+    padding: 6px 12px;
+    width: fit-content;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.content h1{
+    margin: 20px 0;
+    font-size: 80px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 80px;
+}
+
+.content h4{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.content button{
+    margin: 25px 0;
+    padding: 12px 16px;
+   border-radius: 40px;
+   font-size: 14px;
+   font-weight: 500;
+   border: none;
+   background-color: #000;
+   color: white;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
 }

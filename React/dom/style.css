@@ -1,0 +1,8 @@
+.heading{
+    color: greenyellow;
+    background-color: #000;
+    padding: 16px;
+    border-radius: 10px;
+    width: fit-content;
+    cursor: pointer;
+}
