@@ -131,3 +131,55 @@ html, body{
     left: 50%;
     transform: translate(-50%);
 }
+
+.slider{
+    height: 420px;
+    width: 100%;
+    /* background-color: cadetblue; */
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.slider .elem{
+    flex-shrink: 0;
+    height: 100%;
+    width: 300px;
+    /* background-color: aquamarine; */
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider::-webkit-scrollbar{
+  display: none;
+}
+
+.slider .elem img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.slider .elem video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.slider .elem .text{
+    position: absolute;
+    color: white;
+    font-weight: 900;
+    bottom: 10%;
+    left: 10%;
+}
+
+
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+}
